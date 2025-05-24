@@ -1,0 +1,26 @@
+# Nmap 7.94SVN scan initiated Fri May 23 22:40:55 2025 as: nmap -A -Pn -T4 -oN scan-agresivo.txt 192.168.1.78
+Nmap scan report for 192.168.1.78
+Host is up (0.013s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.2p1 Debian 2+deb12u5 (protocol 2.0)
+| ssh-hostkey: 
+|   256 a8:4c:e1:df:54:f4:8a:4c:b6:d3:72:b5:1f:ec:c7:29 (ECDSA)
+|_  256 0a:0c:cb:fd:22:15:39:71:61:b5:14:e0:bc:6a:55:56 (ED25519)
+53/tcp open  domain  dnsmasq 2.90
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.90
+MAC Address: 2C:CF:67:81:27:15 (Unknown)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.8
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   13.11 ms 192.168.1.78
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri May 23 22:41:17 2025 -- 1 IP address (1 host up) scanned in 22.43 seconds

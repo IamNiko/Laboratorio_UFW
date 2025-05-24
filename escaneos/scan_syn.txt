@@ -1,0 +1,2 @@
+# Nmap 7.94SVN scan initiated Fri May 23 22:05:56 2025 as: nmap -sS -sV -T4 -oN scan_syn.txt 192.168.1.78
+# Nmap done at Fri May 23 22:05:58 2025 -- 1 IP address (0 hosts up) scanned in 1.60 seconds
